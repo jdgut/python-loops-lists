@@ -1,4 +1,4 @@
-
+ 
 tasks = [
 	{ "label": 'Eat my lunch', "done": True },
 	{ "label": 'Make the bed', "done": False },
@@ -12,4 +12,7 @@ tasks = [
 
 
 #Your code go here:
+
+completed = list(filter(lambda task: task["done"] and task , tasks ))
+print(completed)
 

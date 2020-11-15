@@ -1,3 +1,4 @@
+import re
 
 names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan','Sophia',
 'Benjamin','Mia','Mason','Charlotte','Elijah','Amelia','Oliver','Evelyn','Jacob','Abigail',
@@ -7,3 +8,5 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+ams = list(filter(lambda name: re.search(".*am.*$", name.lower()) and name , names))
+print(ams)

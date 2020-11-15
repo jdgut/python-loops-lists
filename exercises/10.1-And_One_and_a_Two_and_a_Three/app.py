@@ -4,4 +4,5 @@ contact = {
     "email": "test@test.com"
 }
 #Your code here:
-
+for i in contact:
+    print( '{} : {}'.format(i, contact[i]))
