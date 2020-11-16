@@ -485,7 +485,7 @@
         {
             "slug": "14-Loop-dictionary",
             "title": "14-Loop-dictionary",
-            "done": false,
+            "done": true,
             "path": "exercises/14-Loop-dictionary",
             "translations": [
                 "us"
